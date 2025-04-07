@@ -1,0 +1,10 @@
+CREATE TABLE semes (
+  id TEXT PRIMARY KEY,
+  seme TEXT NOT NULL,
+  category TEXT NOT NULL,
+  description TEXT NOT NULL,
+  clauses TEXT NOT NULL,
+  metadataFields TEXT NOT NULL,
+  createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
